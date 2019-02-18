@@ -23,7 +23,7 @@ def solution(line):  # 用栈来实现
         '+': lambda x1, x2: x2 + x1,  # 之所以是x2在前，是因为两次pop相当于反向取出最后两个数据
         '-': lambda x1, x2: x2 - x1,
         '*': lambda x1, x2: x2 * x1,
-        '/': lambda x1, x2: x2 // x1 if x1 != 0 else 'err'  # 由于是非负数之间的除法，向下取整可直接用//
+        '/': lambda x1, x2: x2 // x1 if x1 != 0 else 'err'
     }
 
     formula = [x for x in line.split()]
