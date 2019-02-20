@@ -1,7 +1,7 @@
 # Xiaomi_OJ
 Solutions to Xiaomi Online Judge by Python
 
-# 1.Easy
+# 1.Easy（19/19）
 
 - [1. A + B](./1_easy/1_two_number_add.py)
 - [5. 找出旋转有序数列的中间值](./1_easy/5_rotating_ordered_sequence.py)
@@ -23,10 +23,11 @@ Solutions to Xiaomi Online Judge by Python
 - [110. 进制转换](./1_easy/110_decimal_conversion.py)
 - [119. 小米兔跳格子](./1_easy/119_rabbit_hopscotch.py)
 
-# 2.Challenge
+# 2.Challenge（21/29）
 
 - [2. 单独出现的数字](./2_challenge/2_find_number_appear_once.py)
 - [3. 大数相减](./2_challenge/3_bignumber_subtraction.py)
+- [6. 交叉队列](./2_challenge/6_#cross_queue.py)
 - [7. 第一个缺失的正数](./2_challenge/7_#positive_missing.py)
 - [12. 找出可能的和的组合](./2_challenge/12_#possible_sum.py)
 - [13. 出现频率最高的前 K 个元素](./2_challenge/13_top_K_elements.py)
@@ -41,13 +42,12 @@ Solutions to Xiaomi Online Judge by Python
 - [50. 找出面积最大的矩形](./2_challenge/50_largest_rectangle.py)
 - [57. 玩转字符串](./2_challenge/57_string_transformation.py)
 - [58. 数组重排](./2_challenge/58_array_rearrangement.py)
+- [60. 上上下下的字符串](./2_challenge/60_up_down_string.py)
+- [63. 数7游戏](./2_challenge/63_game_of_seven.py)
+- [68. 平面正方形](./2_challenge/68_flat_square.py)
+- [75. 发奖励](./2_challenge/75_reward.py)
 
 ### Todo:
-- [6. 交叉队列]()
-- [60. 上上下下的字符串]()
-- [63. 数7游戏]()
-- [68. 平面正方形]()
-- [75. 发奖励]()
 - [79. 知了的鸣叫]()
 - [84. 论 ADC 如何出装]()
 - [85. 抢劫！]()
@@ -57,7 +57,7 @@ Solutions to Xiaomi Online Judge by Python
 - [125. 灯]()
 - [127. 殊途同归]()
 
-# 3.Medium
+# 3.Medium（0/30）
 
 ### Todo:
 - [4. 最长连续数列]()
@@ -91,7 +91,7 @@ Solutions to Xiaomi Online Judge by Python
 - [117. 数数字游戏]()
 - [120. dreamstart 的催促]()
 
-# 4.Difficult
+# 4.Difficult（1/19）
 
 - [8. 最少交换次数](./4_difficult/8_min_exchange.py)
 
@@ -115,11 +115,9 @@ Solutions to Xiaomi Online Judge by Python
 - [118. Grizzly and GCD]()
 - [122. MMD]()
 
-# 5.Hard
-
-### Revise:
-- [94. 诗篇]()
+# 5.Hard（0/3）
 
 ### Todo:
+- [94. 诗篇]()
 - [108. 猜数字]()
 - [133. 星空]()

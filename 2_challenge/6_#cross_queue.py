@@ -11,46 +11,10 @@
 @return string 处理后的结果
 """
 
-
-# def solution(line):
-#     s1, s2, s3 = line.strip().split(',')
-#     s1, s2, s3 = list(s1), list(s2), list(s3)
-#     len1, len2, len3 = len(s1), len(s2), len(s3)
-#
-#     if len(s1) + len(s2) != len(s3):
-#         return 'false'
-#
-#     matched = [[False for i in range(len2 + 1)] for j in range(len1 + 1)]
-#     # 动态规划矩阵matched[l1][l2]表示s1取l1长度,s2取l2长度，是否能匹配s3的l1+12长度。
-#     # 则有matched[l1][l2] = s1[l1-1] == s3[l1+l2-1] && matched[l1-1][l2] || s2[l2 - 1] == s3[l1+l2-1] && matched[l1][l2-1]
-#     # 边界条件是其中一个长度为0，另一个去匹配s3
-#
-#     matched[0][0] = True
-#
-#     for i in range(1, len1 + 1):
-#         if s1[i - 1] == s3[i - 1]:
-#             matched[i][0] = True
-#
-#     for i in range(1, len2 + 1):
-#         if s2[i - 1] == s3[i - 1]:
-#             matched[0][i] = True
-#
-#     for i1 in range(1, len1 + 1):
-#         for i2 in range(1, len2 + 1):
-#             i3 = i1 + i2
-#             if s1[i1 - 1] == s3[i3 - 1]:
-#                 matched[i1][i2] = matched[i1][i2] or matched[i1 - 1][i2]
-#             if s2[i2 - 1] == s3[i3 - 1]:
-#                 matched[i1][i2] = matched[i1][i2] or matched[i1][i2 - 1]
-#
-#     return str(matched[len1][len2]).lower()
-
 def solution(line):
     s1, s2, s3 = line.strip().split(',')
-    s1, s2, s3 = list(s1), list(s2), list(s3)
     len1, len2, len3 = len(s1), len(s2), len(s3)
-
-    if len(s1) + len(s2) != len(s3):
+    if len1 + len2 != len3:
         return 'false'
 
     matched = [[0 for i in range(len2 + 1)] for j in range(len1 + 1)]
@@ -59,36 +23,25 @@ def solution(line):
     # 边界条件是其中一个长度为0，另一个去匹配s3
 
     matched[0][0] = 1
+    for i in range(len1):
+        if s1[i] == s3[i]:
+            matched[i + 1][0] = 1
 
-    for i in range(1, len1 + 1):
-        if s1[i - 1] == s3[i - 1]:
-            matched[i][0] = 1
+    for i in range(len2):
+        if s2[i] == s3[i]:
+            matched[0][i + 1] = 1
 
-    for i in range(1, len2 + 1):
-        if s2[i - 1] == s3[i - 1]:
-            matched[0][i] = 1
+    for i in range(len1):
+        for j in range(len2):
+            matched[i + 1][j + 1] = ((s1[i] == s3[i + j + 1] and matched[i][j + 1]) or (s2[j] == s3[i + j + 1] and matched[i + 1][j]))
 
-    for i1 in range(1, len1 + 1):
-        for i2 in range(1, len2 + 1):
-            i3 = i1 + i2
-            if s1[i1 - 1] == s3[i3 - 1] and matched[i1][i2] == 0:
-                matched[i1][i2] = matched[i1 - 1][i2]
-            if s2[i2 - 1] == s3[i3 - 1] and matched[i1][i2] == 0:
-                matched[i1][i2] = matched[i1][i2 - 1]
-
-    if matched[len1][len2] == 0:
-        return 'false'
-    else:
-        return 'true'
+    return 'true' if matched[len1][len2] else 'false'
 
 
-print(solution('aabcc,dbbca,aadbbcbcac'))
+print(solution('aabcc,dbbca,aadbbcbcac'))  # true false true true false true false
 print(solution('aabcc,dbbca,aadbbbaccc'))
 print(solution('a,b,ab'))
 print(solution('a,b,ba'))
 print(solution('a,b,ac'))
 print(solution('abc,bca,bcaabc'))
 print(solution('abc,bca,aabbcc'))
-
-# # true false true true false true false
-
