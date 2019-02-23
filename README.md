@@ -23,7 +23,7 @@ Solutions to Xiaomi Online Judge by Python
 - [110. 进制转换](./1_easy/110_decimal_conversion.py)
 - [119. 小米兔跳格子](./1_easy/119_rabbit_hopscotch.py)
 
-# 2.Challenge（25/29）
+# 2.Challenge（29/29）
 
 - [2. 单独出现的数字](./2_challenge/2_find_number_appear_once.py)
 - [3. 大数相减](./2_challenge/3_bignumber_subtraction.py)
@@ -50,13 +50,10 @@ Solutions to Xiaomi Online Judge by Python
 - [84. 论 ADC 如何出装](./2_challenge/84_ADC.py)
 - [85. 抢劫！](./2_challenge/85_robbery.py)
 - [90. +1s](./2_challenge/90_add_one_second.py)
-
-### Todo:
-
-- [113. 高弗雷勋爵]()
-- [123. 运维监控]()
-- [125. 灯]()
-- [127. 殊途同归]()
+- [113. 高弗雷勋爵](./2_challenge/113_#Lord_Gorey.py)
+- [123. 运维监控](./2_challenge/123_#operations_monitoring.py)
+- [125. 灯](./2_challenge/125_#lamp.py)
+- [127. 殊途同归](./2_challenge/127_#different_roads_to_same_place.py)
 
 # 3.Medium（0/30）
 
