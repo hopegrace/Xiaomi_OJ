@@ -55,11 +55,12 @@ Solutions to Xiaomi Online Judge by Python
 - [125. 灯](./2_challenge/125_#lamp.py)
 - [127. 殊途同归](./2_challenge/127_#different_roads_to_same_place.py)
 
-# 3.Medium（0/30）
+# 3.Medium（2/30）
+
+- [4. 最长连续数列](./3_medium/4_longest_consecutive_sequence.py)
+- [9. 移除 K 位得到最小值](./3_medium/9_remove_K_to_get_min.py)
 
 ### Todo:
-- [4. 最长连续数列]()
-- [9. 移除 K 位得到最小值]()
 - [20. 有多少个等差数列]()
 - [21. 按序组合成最大的数]()
 - [23. 找到第 N 个数字 II]()
