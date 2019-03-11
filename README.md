@@ -1,7 +1,7 @@
 # Xiaomi_OJ
 Solutions to Xiaomi Online Judge by Python
 
-# 1.Easy（19/19）
+# 1.Easy（20/20）
 
 - [1. A + B](./1_easy/1_two_number_add.py)
 - [5. 找出旋转有序数列的中间值](./1_easy/5_rotating_ordered_sequence.py)
@@ -22,6 +22,7 @@ Solutions to Xiaomi Online Judge by Python
 - [102. 解救我 mi](./1_easy/102_rescue_mi.py)
 - [110. 进制转换](./1_easy/110_decimal_conversion.py)
 - [119. 小米兔跳格子](./1_easy/119_rabbit_hopscotch.py)
+- [136. 小米兔的轨迹](./1_easy/136_rabbit_trace.py)
 
 # 2.Challenge（29/29）
 

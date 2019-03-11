@@ -21,6 +21,7 @@
 
 import collections
 
+
 def solution(line):
     numbers = [int(x) for x in line.split()]
     length = len(numbers)
