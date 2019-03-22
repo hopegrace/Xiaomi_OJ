@@ -27,6 +27,7 @@ def solution(line):
     length = len(numbers)
     res = length * (length - 1) / 2
     dp = [collections.Counter() for i in range(len(numbers))]
+
     for i in range(len(numbers)):
         for j in range(i):
             tmp_d = numbers[i] - numbers[j]

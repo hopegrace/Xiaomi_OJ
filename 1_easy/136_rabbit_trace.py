@@ -48,7 +48,7 @@ def solution(line):
     return res
 
 
-test = "3 4\n1 2 3 4\n 4 5 6 7\n 7 8 9 10"
+test = "3 3\n1 2 3\n 4 5 6\n 7 8 9"
 print(solution(test))
 
 
