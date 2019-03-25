@@ -56,16 +56,16 @@ Solutions to Xiaomi Online Judge by Python
 - [125. 灯](./2_challenge/125_#lamp.py)
 - [127. 殊途同归](./2_challenge/127_#different_roads_to_same_place.py)
 
-# 3.Medium（4/30）
+# 3.Medium（6/30）
 
 - [4. 最长连续数列](./3_medium/4_longest_consecutive_sequence.py)
 - [9. 移除 K 位得到最小值](./3_medium/9_remove_K_to_get_min.py)
 - [20. 有多少个等差数列](./3_medium/20_#arithmetic_progression.py)
 - [21. 按序组合成最大的数](./3_medium/21_#combine_to_get_max.py)
+- [23. 找到第 N 个数字 II](./3_medium/23_#find_Nth_number_II.py)
+- [27. 石头收藏家](./3_medium/27_stone_collector.py)
 
 ### Todo:
-- [23. 找到第 N 个数字 II]()
-- [27. 石头收藏家]()
 - [34. 重排数组求最大和]()
 - [37. 寻找宝藏]()
 - [38. 国王招驸马]()

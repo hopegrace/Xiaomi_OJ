@@ -18,26 +18,25 @@
 
 def solution(line):
     def max_array(array, k):  # 取得一个数组中k位长的最大数字
-        drop = len(array)-k
+        drop = len(array) - k
         res = []
         for digit in array:
-            while drop and res and res[-1]<digit:
+            while drop and res and res[-1] < digit:
                 # 如果res栈顶元素比array[i]小，则不断弹出栈顶元素，直到1.栈空，2.剩下的数组元素不足以填满栈至k
                 res.pop()
                 drop -= 1
             res.append(digit)
         return res[:k]
 
-
     def merge(array_a, array_b):
-        res=[]
+        res = []
         while array_a or array_b:
-            if array_a>array_b:
+            if array_a > array_b:
                 res += [array_a[0]]
-                array_a=array_a[1:]
+                array_a = array_a[1:]
             else:
                 res += [array_b[0]]
-                array_b=array_b[1:]
+                array_b = array_b[1:]
         return res
         # 可以简化为一行：return [max(array_a,array_b).pop(0) for _ in array_a+array_b]
         # python中，列表比较是基于字典序(也成为字母序)，可参考https://ask.helplib.com/others/post_12803474
@@ -47,14 +46,13 @@ def solution(line):
     array_1 = [int(x) for x in array_1.split(',')]
     array_2 = [int(x) for x in array_2.split(',')]
     k = int(k)
-    res =[]
+    res = []
 
-
-    for i in range(max(0, k - len(array_2)), min(k, len(array_1))+1):
+    for i in range(max(0, k - len(array_2)), min(k, len(array_1)) + 1):
         max_1 = max_array(array_1, i)  # 从array_1中选择i个数使得最大
         max_2 = max_array(array_2, k - i)  # 从array_2中选择k-i个数使得最大
         candidate = merge(max_1, max_2)  # 获得合并的k位数使得最大
-        res=max(candidate,res)    # 所有合并的k位数中最大的k位数
+        res = max(candidate, res)    # 所有合并的k位数中最大的k位数
 
     return "".join([str(x) for x in res])
 
