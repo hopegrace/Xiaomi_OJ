@@ -28,9 +28,9 @@ Solutions to Xiaomi Online Judge by Python
 
 - [2. 单独出现的数字](./2_challenge/2_find_number_appear_once.py)
 - [3. 大数相减](./2_challenge/3_bignumber_subtraction.py)
-- [6. 交叉队列](./2_challenge/6_#cross_queue.py)
-- [7. 第一个缺失的正数](./2_challenge/7_#positive_missing.py)
-- [12. 找出可能的和的组合](./2_challenge/12_#possible_sum.py)
+- [6. 交叉队列](./2_challenge/6_cross_queue_M.py)
+- [7. 第一个缺失的正数](./2_challenge/7_positive_missing_M.py)
+- [12. 找出可能的和的组合](./2_challenge/12_possible_sum_M.py)
 - [13. 出现频率最高的前 K 个元素](./2_challenge/13_top_K_elements.py)
 - [15. 和为零的三元组](./2_challenge/15_sum_zero_triple.py)
 - [16. 四则运算](./2_challenge/16_arithmetic.py)
@@ -51,27 +51,28 @@ Solutions to Xiaomi Online Judge by Python
 - [84. 论 ADC 如何出装](./2_challenge/84_ADC.py)
 - [85. 抢劫！](./2_challenge/85_robbery.py)
 - [90. +1s](./2_challenge/90_add_one_second.py)
-- [113. 高弗雷勋爵](./2_challenge/113_#Lord_Gorey.py)
-- [123. 运维监控](./2_challenge/123_#operations_monitoring.py)
-- [125. 灯](./2_challenge/125_#lamp.py)
-- [127. 殊途同归](./2_challenge/127_#different_roads_to_same_place.py)
+- [113. 高弗雷勋爵](./2_challenge/113_Lord_Gorey_M.py)
+- [123. 运维监控](./2_challenge/123_operations_monitoring_M.py)
+- [125. 灯](./2_challenge/125_lamp_M.py)
+- [127. 殊途同归](./2_challenge/127_different_roads_to_same_place_M.py)
 
-# 3.Medium（6/30）
+# 3.Medium（7/31）
 
 - [4. 最长连续数列](./3_medium/4_longest_consecutive_sequence.py)
 - [9. 移除 K 位得到最小值](./3_medium/9_remove_K_to_get_min.py)
-- [20. 有多少个等差数列](./3_medium/20_#arithmetic_progression.py)
-- [21. 按序组合成最大的数](./3_medium/21_#combine_to_get_max.py)
-- [23. 找到第 N 个数字 II](./3_medium/23_#find_Nth_number_II.py)
+- [20. 有多少个等差数列](./3_medium/20_arithmetic_progression_M.py)
+- [21. 按序组合成最大的数](./3_medium/21_combine_to_get_max_M.py)
+- [23. 找到第 N 个数字 II](./3_medium/23_find_Nth_number_II_M.py)
 - [27. 石头收藏家](./3_medium/27_stone_collector.py)
+- [34. 重排数组求最大和](./3_medium/34_reorder_to_get_max.py)
 
 ### Todo:
-- [34. 重排数组求最大和]()
 - [37. 寻找宝藏]()
 - [38. 国王招驸马]()
 - [40. 找小“3”]()
 - [41. 硬币排序]()
 - [44. 需要多少个立方数]()
+- [45. 德州扑克]()
 - [46. 数组差]()
 - [47. 硬币比赛]()
 - [56. 马走日]()
@@ -84,36 +85,32 @@ Solutions to Xiaomi Online Judge by Python
 - [87. 美丽字符串]()
 - [89. N!]()
 - [96. 第N个丑数]()
-- [97. Wi-Fi 部署]()
 - [107. 求余]()
-- [111. 胡萝卜]()
 - [114. 打羽毛球]()
 - [117. 数数字游戏]()
 - [120. dreamstart 的催促]()
+- [137. 小爱密码]()
+- [138. Carryon数数字]()
 
-# 4.Difficult（1/19）
+# 4.Difficult（1/15）
 
 - [8. 最少交换次数](./4_difficult/8_min_exchange.py)
 
 ### Todo:
 - [24. 海盗分赃]()
-- [28. 组长偏头痛]()
 - [29. 扑克游戏]()
 - [32. 连乘数字串]()
 - [36. 选水果]()
 - [42. 字符串替换]()
-- [51. 村村通计划]()
 - [55. 数数有几个岛]()
 - [59. 漂流瓶]()
 - [71. 还是字符串]()
 - [80. 最短字符串]()
-- [91. 不要乱改代码]()
-- [92. 年轮]()
 - [101. 纯位数]()
 - [104. 共边三角形]()
-- [109. 青蛙过河]()
 - [118. Grizzly and GCD]()
 - [122. MMD]()
+- [139. Logic Gatekeeper]()
 
 # 5.Hard（0/3）
 

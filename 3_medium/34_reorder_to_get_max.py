@@ -23,10 +23,35 @@
 
 
 def solution(line):
+    input_data = line.split(";")
+    n = int(input_data.pop(0))
+    q = int(input_data.pop(0))
+    num_array = [int(x) for x in input_data.pop(0).split()]
+    consult_array = [int(x) for y in input_data for x in y.split()]
+    li_list = [consult_array[i] for i in range(2 * q) if i % 2 == 0]
+    ri_list = [consult_array[i] for i in range(2 * q) if i % 2 == 1]
 
-    pass
+    index_position = [i for i in range(n)]
+    index_times = [0 for i in range(n)]
+    for i in range(q):
+        # 可以用map来代替下面循环
+        # index_times[li_list[i]-1:ri_list[i]]=map(lambda n:n+1,index_times[li_list[i]-1:ri_list[i]])
+        for j in range(li_list[i] - 1, ri_list[i]):
+            index_times[j] += 1
+    times_dict = dict(zip(index_position, index_times))  # 构建字典，key为位置，value为该位置被索引的次数
+    position_sort = sorted(times_dict.items(), key=lambda item: item[1])  # 按索引的次数对位置排序
+    num_array.sort()   # 将数组按从小到大排序
 
-# 计算每个位置被索引的次数，然后按照被索引的次数对这些位置进行排序，然后对原始数组进行排序，放在对应的位置上
+    reorder_array = [0 for i in range(n)]
+    for i in range(n):
+        reorder_array[position_sort[i][0]] = num_array[i]  # 索引次数最多的位置放最大的数，如此下去
+
+    res = 0
+    for i in range(q):
+        res += sum(reorder_array[(li_list[i] - 1):ri_list[i]])
+    return res
+
+
 test1 = "8;2;2 0 1 0 3 4 5 6;5 7;3 5"
 print(solution(test1))  # 26
 
