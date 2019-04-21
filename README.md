@@ -24,7 +24,7 @@ Solutions to Xiaomi Online Judge by Python
 - [119. 小米兔跳格子](./1_easy/119_rabbit_hopscotch.py)
 - [136. 小米兔的轨迹](./1_easy/136_rabbit_trace.py)
 
-# 2.Challenge（29/29）
+# 2.Challenge（31/31）
 
 - [2. 单独出现的数字](./2_challenge/2_find_number_appear_once.py)
 - [3. 大数相减](./2_challenge/3_bignumber_subtraction.py)
@@ -55,8 +55,10 @@ Solutions to Xiaomi Online Judge by Python
 - [123. 运维监控](./2_challenge/123_operations_monitoring_M.py)
 - [125. 灯](./2_challenge/125_lamp_M.py)
 - [127. 殊途同归](./2_challenge/127_different_roads_to_same_place_M.py)
+- [142. 数学等式](./2_challenge/142_mathematical_equation_M.py)
+- [143. 米兔洗澡](./2_challenge/143_rabbit_bath_M.py)
 
-# 3.Medium（7/31）
+# 3.Medium（11/31）
 
 - [4. 最长连续数列](./3_medium/4_longest_consecutive_sequence.py)
 - [9. 移除 K 位得到最小值](./3_medium/9_remove_K_to_get_min.py)
@@ -65,15 +67,15 @@ Solutions to Xiaomi Online Judge by Python
 - [23. 找到第 N 个数字 II](./3_medium/23_find_Nth_number_II_M.py)
 - [27. 石头收藏家](./3_medium/27_stone_collector.py)
 - [34. 重排数组求最大和](./3_medium/34_reorder_to_get_max.py)
+- [37. 寻找宝藏](./3_medium/37_looking_for_treasure_M.py)
+- [38. 国王招驸马](./3_medium/38_emperor_recruit_son-in-law_M.py)
+- [41. 硬币排序](./3_medium/41_coin_sorting.py)
+- [46. 数组差](./3_medium/46_array_diff_M.py)
 
 ### Todo:
-- [37. 寻找宝藏]()
-- [38. 国王招驸马]()
 - [40. 找小“3”]()
-- [41. 硬币排序]()
 - [44. 需要多少个立方数]()
 - [45. 德州扑克]()
-- [46. 数组差]()
 - [47. 硬币比赛]()
 - [56. 马走日]()
 - [64. 跳跳看]()
