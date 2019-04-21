@@ -32,3 +32,4 @@ def solution(line):
 
 print(solution("19,9,35,74,22"))
 
+
