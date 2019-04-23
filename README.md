@@ -58,7 +58,7 @@ Solutions to Xiaomi Online Judge by Python
 - [142. 数学等式](./2_challenge/142_mathematical_equation_M.py)
 - [143. 米兔洗澡](./2_challenge/143_rabbit_bath_M.py)
 
-# 3.Medium（11/31）
+# 3.Medium（12/31）
 
 - [4. 最长连续数列](./3_medium/4_longest_consecutive_sequence.py)
 - [9. 移除 K 位得到最小值](./3_medium/9_remove_K_to_get_min.py)
@@ -70,11 +70,11 @@ Solutions to Xiaomi Online Judge by Python
 - [37. 寻找宝藏](./3_medium/37_looking_for_treasure_M.py)
 - [38. 国王招驸马](./3_medium/38_emperor_recruit_son-in-law_M.py)
 - [41. 硬币排序](./3_medium/41_coin_sorting.py)
+- [44. 需要多少个立方数](./3_medium/44_cubic_number_M.py)
 - [46. 数组差](./3_medium/46_array_diff_M.py)
 
 ### Todo:
 - [40. 找小“3”]()
-- [44. 需要多少个立方数]()
 - [45. 德州扑克]()
 - [47. 硬币比赛]()
 - [56. 马走日]()
