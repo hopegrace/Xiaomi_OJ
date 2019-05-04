@@ -1,7 +1,7 @@
 # Xiaomi_OJ
 Solutions to Xiaomi Online Judge by Python
 
-# 1.Easy（20/20）
+# 1.Easy（21/21）
 
 - [1. A + B](./1_easy/1_two_number_add.py)
 - [5. 找出旋转有序数列的中间值](./1_easy/5_rotating_ordered_sequence.py)
@@ -22,6 +22,7 @@ Solutions to Xiaomi Online Judge by Python
 - [102. 解救我 mi](./1_easy/102_rescue_mi.py)
 - [110. 进制转换](./1_easy/110_decimal_conversion.py)
 - [119. 小米兔跳格子](./1_easy/119_rabbit_hopscotch.py)
+- [128. 不一样的排序](./1_easy/128_different_sort.py)
 - [136. 小米兔的轨迹](./1_easy/136_rabbit_trace.py)
 
 # 2.Challenge（31/31）
@@ -58,7 +59,7 @@ Solutions to Xiaomi Online Judge by Python
 - [142. 数学等式](./2_challenge/142_mathematical_equation_M.py)
 - [143. 米兔洗澡](./2_challenge/143_rabbit_bath_M.py)
 
-# 3.Medium（12/31）
+# 3.Medium（13/31）
 
 - [4. 最长连续数列](./3_medium/4_longest_consecutive_sequence.py)
 - [9. 移除 K 位得到最小值](./3_medium/9_remove_K_to_get_min.py)
@@ -72,13 +73,13 @@ Solutions to Xiaomi Online Judge by Python
 - [41. 硬币排序](./3_medium/41_coin_sorting.py)
 - [44. 需要多少个立方数](./3_medium/44_cubic_number_M.py)
 - [46. 数组差](./3_medium/46_array_diff_M.py)
+- [64. 跳跳看](./3_medium/64_jump.py)
 
 ### Todo:
 - [40. 找小“3”]()
 - [45. 德州扑克]()
 - [47. 硬币比赛]()
 - [56. 马走日]()
-- [64. 跳跳看]()
 - [66. 节约用电]()
 - [69. 合法字符串]()
 - [72. 简单直接全排列]()
